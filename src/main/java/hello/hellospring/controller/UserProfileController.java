@@ -16,7 +16,6 @@ import java.util.Map;
 public class UserProfileController {
 
     private UserProfileMapper mapper;
-    private Map<String, UserProfile> userMap;
 
     //생성자
     public UserProfileController(UserProfileMapper mapper){
