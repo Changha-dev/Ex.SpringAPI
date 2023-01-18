@@ -17,6 +17,7 @@ public class UserProfileController {
 
     private UserProfileMapper mapper;
 
+    //2
     //생성자
     public UserProfileController(UserProfileMapper mapper){
         this.mapper = mapper;
