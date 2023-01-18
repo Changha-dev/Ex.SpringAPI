@@ -23,11 +23,13 @@ public class UserProfileController {
         this.mapper = mapper;
     }
 
+    //data 조회
     @GetMapping("/user/{id}")
     public UserProfile getUserProfile(@PathVariable("id") String id) {
         return mapper.getUserProfile(id);
     }
 
+    //data 전체 조회
     @GetMapping("/user/all")
     public List<UserProfile> getUserProfile() {
         return mapper.getUserProfileList();
