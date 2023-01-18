@@ -29,7 +29,7 @@ public class UserProfileController {
         return mapper.getUserProfile(id);
     }
 
-    //data 전체 조회
+    //data 전체 조회2
     @GetMapping("/user/all")
     public List<UserProfile> getUserProfile() {
         return mapper.getUserProfileList();
